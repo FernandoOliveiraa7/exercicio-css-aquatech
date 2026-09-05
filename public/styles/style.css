@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    
+}
+.header {
+    display: flex;
+    background-color: #000;
+    border-bottom: 3px solid #32b8cc;
+    padding: 30px 50px;
+    width: 100%;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.titulo {
+    color: #32b8cc;
+    font-size: 18px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+    color: #f0a500;
+}
+
+
+
+.navbar a {
+    color: #f0a500;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #ffcf67;
+    transition: all 0.2s;
+}
+
+.navbar .agora a {
+    font-weight: bold;
+}
+
+.banner {
+    height: 560px;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+}
+
+.banner p {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    width: 300px;
+}
+
+.banner span {
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    padding: 40px;
+    background-color: #e5e5e5;
+}
+
+.boxes {
+    display: flex;
+    gap: 200px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.box h4 {
+    color: #de317c;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer {
+    display: flex;
+    background-color: #32b8cc;
+    height: 100px;
+    justify-content: center;
+}
+
+.footer .container {
+    display: flex;
+    padding-top: 30px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login {
+    background-image: url("/aquatech-somente-html/public/assets/imgs/bg-jelly-fish-para-home.png");
+    padding: 213px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background-color: #e5e5e5;
+    padding: 50px;
+    border-radius: 15px;
+    width: 800px;
+}
+
+.card-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h2 {
+    color: #de317c;
+    margin-bottom: 20px;
+    
+}
+
+.card-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #de317c;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.formulario button {
+    align-self: center;
+}
+
+.formulario span {
+    color: #de317c;
+}
+
+
+
+
+
+input {
+    border: 1px solid #32b8cc;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.simulador {
+    display: flex;
+    background-image: url("/aquatech-somente-html/public/assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px 150px;
+}
+
+.simulador .container {
+    display: flex;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 50px;
+    gap: 16px;
+}
+
+.simulador .container h2 {
+    color: #de317c;
+}
+
+
+
